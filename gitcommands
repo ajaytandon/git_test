@@ -1,0 +1,17 @@
+creating new git branch with existing branch code:
+git checkout (new branch name) (old branch name)
+
+
+git stash:
+command to stash the changes
+git stash save "message"
+
+git stash list
+
+command to revert the stash chagnes:
+git stash pop stash@{0}
+
+
+
+stash chagnes will be applied but will not be pop
+git stash apply stash@{0}
